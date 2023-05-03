@@ -11,6 +11,8 @@ path = "src/lib.rs"
 
 [dependencies]
 cxx = "1.0.94"
+# TODO: This will break for a new developer who doesn't structure github clones in a compatible manner.
+# This needs to point to a published crate once we publish `xrpl-rust-sdk-core`
 "xrpl-rust-sdk-core" = { path = "../../../../xrpl-rust-sdk/xrpl-rust-sdk-core" }
 
 [build-dependencies]
